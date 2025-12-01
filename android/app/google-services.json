@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "944661332797",
+    "project_id": "parcialteoria-c9136",
+    "storage_bucket": "parcialteoria-c9136.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944661332797:android:823bcaa04f6fa242287b54",
+        "android_client_info": {
+          "package_name": "com.example.decoracion_eventos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH_O2JBMmjNxPeBkK1gTQHD3GSM7rammc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

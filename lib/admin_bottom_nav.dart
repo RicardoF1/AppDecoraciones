@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'admin_screen.dart';
 import 'mi_perfil_screen.dart'; 
+import 'admin_roles_screen.dart';
 
 class AdminBottomNav extends StatefulWidget {
   const AdminBottomNav({super.key});
@@ -14,7 +15,8 @@ class _AdminBottomNavState extends State<AdminBottomNav> {
 
   final List<Widget> _screens = const [
     AdminPlantillasScreen(), 
-    MiPerfilScreen(),          
+    MiPerfilScreen(),
+    AdminRolesScreen(),          
   ];
 
   void _onItemTapped(int index) {
@@ -41,6 +43,7 @@ class _AdminBottomNavState extends State<AdminBottomNav> {
             icon: Icon(Icons.person),
             label: "Perfil",
           ),
+          BottomNavigationBarItem(icon: Icon(Icons.admin_panel_settings), label: "Roles"),
         ],
       ),
     );
